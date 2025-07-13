@@ -31,9 +31,7 @@ Atualmente, o projeto ainda **não contém testes implementados**, por estar em 
 
 ## 🧰 Tecnologias e Linguagens
 
-- Python
-- Visual Studio (Python Tools)
-- MSBuild (.pyproj)
+<img src="https://skillicons.dev/icons?i=python,vscode&theme=dark" />
 
 ---
 
@@ -61,6 +59,30 @@ cd TextFormatter
 
 - Com o Visual Studio aberto, execute o projeto clicando em **Iniciar Depuração (F5)**.
 - O arquivo `TextFormatter.py` servirá como ponto de entrada.
+
+---
+
+## 📦 Como gerar um executável (Windows)
+
+Você pode transformar o script Python em um executável `.exe` usando o [PyInstaller](https://pyinstaller.org/).
+
+### Instalação do PyInstaller
+
+```bash
+pip install pyinstaller
+```
+
+### Gerar o executável
+
+Navegue até o diretório onde está o `TextFormatter.py` e execute:
+
+```bash
+pyinstaller --onefile TextFormatter.py
+```
+
+O executável será gerado na pasta `dist/`.
+
+> ⚠️ Certifique-se de que o arquivo `TextFormatter.py` tenha código funcional antes de gerar o executável.
 
 ---
 
