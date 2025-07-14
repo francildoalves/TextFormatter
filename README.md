@@ -31,7 +31,7 @@ Atualmente, o projeto ainda **não contém testes implementados**, por estar em 
 
 ## 🧰 Tecnologias e Linguagens
 
-<img src="https://skillicons.dev/icons?i=python,vscode&theme=dark" />
+<img src="https://skillicons.dev/icons?i=python,vscode&theme=dark" alt="tecnologias usadas" />
 
 ---
 
@@ -119,6 +119,8 @@ git push origin feature/nova-funcionalidade
 
 <details align="left">
   <summary>Créditos</summary> 
+  - Badges <a href="https://skillicons.dev/icons">Skillicons.dev - https://skillicons.dev</a>
+  <br>
   - Icons file by <a href="https://shields.io/">Shields - https://shields.io/</a>
   <br>
   - Icons file by <a href="https://github.com/Naereen/badges/">Naereen - https://github.com/Naereen/badges/</a>	
